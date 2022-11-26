@@ -1,0 +1,145 @@
+/*Ajuste lado a lado*/
+
+.ladoAlado {
+    display: flex;
+    flex: row;
+}
+
+/*margem da root*/
+
+#root {
+    margin: 15px;
+}
+
+/*Primeira Div, com as imagens*/
+
+.logo {
+    background-color: #D9D9D9;
+    margin-right: 54px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    border-radius: 6px;
+}
+
+.titulo {
+    font-size: x-large;
+    display:flex;
+    
+}
+
+.tituloLogo {
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+
+#imgEnthus {
+    padding-top: 13px;
+    padding-left: 30px;
+}
+
+#bixo {
+   width: 65%;
+   margin-top: 60px;
+   margin-left: 210px;
+}
+
+/*     acima tá funcional com a parte sem nada :) */
+
+/* parte dos inputs: (2 Div)*/
+
+.parteInputs{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    padding-right: 25px;
+    border-radius: 6px;
+    
+}
+
+.padraoInput {
+    border-color: #FFFFFF;
+    display: flex;
+    flex: row;
+    border-radius: 4px;
+    width: 90%;
+    margin-bottom: 55px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 23px;
+    padding-right: 23px;
+
+    
+}
+
+
+
+.formulario {
+    background-color: #D9D9D9;
+    display: block;
+    text-align: left;
+    padding-top: 35px;
+    
+
+}
+/*configurações do botão*/
+#botaoConfirma {
+    color: red;
+    border-radius: 4px;
+    border-color: #FFFFFF;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 8px;
+
+}
+
+#botaoConfirma:hover {
+    cursor: pointer;
+
+}
+
+#racaPet {
+   width: 100%;
+    
+}
+
+
+/*parte do recebimento de dados AKA lista*/
+.listaMutavel {
+    margin-top:10px;
+    
+}
+.fullTable{
+    background-color: #D9D9D9;
+    border-radius: 6px;
+    border: 3px solid #D9D9D9;
+    width: 100%;
+    
+}
+
+.cabecalho{
+    background: #D9D9D9;
+    
+}
+
+.escritaCabecalho{
+    font-size: medium;
+    background-color: #D9D9D9;
+    margin:10px;
+    width: 300px;
+}
+
+
+.listaReativa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.adicoesLista {
+    width: 300px;
+    text-align: center;
+}
